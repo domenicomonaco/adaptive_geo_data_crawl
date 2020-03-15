@@ -1,0 +1,3 @@
+* * * * * root echo "Hello world" >> /var/log/cron.log 2>&1
+* * * * * root mongodump --host localhost --port 27020 --out /data/dbdump/out-down >> /var/log/cron.log 2>&1
+# Don't remove the empty line at the end of this file. It is required to run the cron job
