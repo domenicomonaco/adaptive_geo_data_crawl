@@ -128,8 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-data/mongo/*.*
-data/mongodump/out-down/*.*
+data/mongo/*
+data/mongodump/out-down/*
 /data/mongo/*
 /data/mongodump/out-down/*
 
